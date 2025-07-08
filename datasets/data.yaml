@@ -1,0 +1,13 @@
+train: ../datasets/train/images
+val: ../datasets/valid/images
+test: ../datasets/test/images
+
+nc: 1
+names: ['Skid-Steer']
+
+roboflow:
+  workspace: data-xulof
+  project: skid-steer-5hfe8
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/data-xulof/skid-steer-5hfe8/dataset/1
