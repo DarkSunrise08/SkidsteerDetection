@@ -6,7 +6,7 @@ import os
 def test_model():
     cmd = [
         'python', 'detect.py',
-        '--weights', 'yolov5s.pt',  # or your model path
+        '--weights', 'yolov5n.pt',  # or your model path
         '--source', 'data/images/bus.jpg',
         '--save-txt',  # saves detection results as text
         '--save-conf'  # saves confidence scores
