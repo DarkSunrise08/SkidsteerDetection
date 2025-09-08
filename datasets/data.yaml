@@ -3,7 +3,7 @@ val: ../datasets/valid/images
 test: ../datasets/test/images
 
 nc: 1
-names: ['Skid-Steer']
+names: ["Skid-Steer"]
 
 roboflow:
   workspace: data-xulof
